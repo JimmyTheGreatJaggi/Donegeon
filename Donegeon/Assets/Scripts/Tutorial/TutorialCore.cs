@@ -89,12 +89,13 @@ public class TutorialCore : MonoBehaviour
             {
                 pressPhase = true;
                 MoveArrow(tutorialPhase, messagedialog[tutorialPhase]);
-                /*arrowTutorial.SetActive(true);
-                Animator animator = pressBut[0].GetComponent<Animator>();                
+
+                arrowTutorial.SetActive(true);
+                Animator animator = pressBut[0].GetComponent<Animator>();
                 Text _text = pressBut[0].GetComponent<Text>();
                 _text.text = "MOVE TO ARROW";
                 animator.SetBool("SetPlay", true);
-                animator.Play("Press1");*/
+                animator.Play("Press1");
 
                 for (int i = 1; i < 4; i++)
                 {
